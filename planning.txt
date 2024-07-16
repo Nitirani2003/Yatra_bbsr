@@ -1,0 +1,14 @@
+Bhubaneswar Yatra Application
+WHAT??
+A functionality where user can easily find a hang-out place of bhubaneswar and it also include Temples, Hospitals, Parks etc
+
+Models??
+Routes??
+ 
+ Yarta app functionality
+
+ 1. user sign-in /sign-up
+ 2. Can Search any place
+ 3. Can give feedback
+ 4. provide users with comprehensive information about various places in Bhubaneswar
+ 5. Shows a list of places that match the search query

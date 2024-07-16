@@ -1,0 +1,15 @@
+/* navbar.css */
+
+.logo {
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 25px;
+    color: #F8395A;
+    transform: translateY(5px);
+}
