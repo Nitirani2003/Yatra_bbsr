@@ -9,7 +9,13 @@ const bodyParser = require('body-parser');
 const PORT = process.env.PORT || 3001;
 //const { jwtAuthMiddleware } = require('./jwt');
 
-app.use(cors());
+const corsOptions = {
+  origin: 'http://localhost:3000', // Replace with your frontend URL
+  methods: 'GET,POST,PUT,DELETE',
+  allowedHeaders: 'Content-Type,Authorization',
+};
+
+app.use(cors(corsOptions)); // Configure CORS
 app.use(bodyParser.json());
 app.use(express.static("public"));
 app.use('/uploads', express.static('public/uploads')); // Make sure this is correctly set
