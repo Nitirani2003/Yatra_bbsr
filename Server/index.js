@@ -10,8 +10,8 @@ const PORT = process.env.PORT || 3001;
 //const { jwtAuthMiddleware } = require('./jwt');
 
 const corsOptions = {
-  origin: 'https://yatra-bbsr-front.vercel.app', // Replace with your frontend URL
-  methods: 'GET,POST,PUT,DELETE',
+  origin: ['https://yatra-bbsr-front.vercel.app'], // Replace with your frontend URL
+  methods: ['GET,POST,PUT,DELETE'],
   credentials: true,
 };
 
