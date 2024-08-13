@@ -17,7 +17,7 @@ function App() {
          <Router>
             <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/register" element={<RegisterPage/>}/>
+            <Route path="https://yatra-bbsr-backend.vercel.app/register" element={<RegisterPage/>}/>
             <Route path="/login" element ={<LoginPage/>}/>
             <Route path="/create-listing" element={<CreateListing/>}/>
             <Route path="/listing/:listingId" element={<ListingDetails/>}/>
