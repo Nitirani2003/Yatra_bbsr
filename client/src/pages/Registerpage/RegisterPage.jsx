@@ -40,7 +40,7 @@ const RegisterPage = () => {
          //for every key of formdata we obtain key pair value and append each key value pair to the register form and then we will send register form to the back end
           register_form.append(key, formData[key])
         }
-        const response= await fetch("https://yatra-bbsr-backend.vercel.app/auth/register",{
+        const response= await fetch("https://yatra-bbsr-backend.vercel.app/register",{
          method:"POST",
          body: register_form
         })
